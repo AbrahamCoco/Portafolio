@@ -1,0 +1,42 @@
+.caja {
+    background: coral;
+    padding: 70px 0;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 50px;
+}
+
+.cards {
+    width: auto;
+    margin: 0 80px;
+    padding: 50px;
+}
+
+.cards li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.cards h2 {
+    font-size: 30px;
+    font-style: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cards img {
+    width: 200px;
+    margin: 20px 20px;
+}
+
+.cards button a {
+    margin: 30px;
+}
