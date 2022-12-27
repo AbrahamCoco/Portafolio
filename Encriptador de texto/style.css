@@ -60,3 +60,12 @@ header img {
     background: darkgray;
     transform: scale(1.1);
 }
+
+.buton-menu {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 5px;
+    margin: 10px 20px;
+    justify-content: flex-end;
+}
