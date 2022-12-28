@@ -34,9 +34,22 @@
 
 .cards img {
     width: 200px;
-    margin: 20px 20px;
+    margin: 20px auto;
 }
 
-.cards button a {
-    margin: 30px;
+.button-encriptador {
+    margin: 5px auto;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background: yellow;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.button-encriptador:hover {
+    background: darkorange;
+    transform: scale(1.2);
 }

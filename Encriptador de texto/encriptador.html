@@ -28,11 +28,13 @@
                 acentos</p>
             <input class="btn-1" type="button" value="Encriptar" id="btn-encriptar">
             <input class="btn-2" type="button" value="Desencriptar" id="btn-desencriptar">
+            <input onclick="navigator.clipboard.writeText(document.getElementById('msg').value)" class="btn-3"
+                type="button" value="Copiar" id="btn-copiar">
         </div>
 
-        <div>
-            <a class="buton-menu" href="../index.html">Regresar al menu de proyectos</a>
-        </div>
+        <a class="container" href="../index.html">
+            <button>Regresar al menu Portafolio</button>
+        </a>
 
     </main>
 </body>
@@ -43,6 +45,9 @@
 
     var boton2 = document.querySelector("#btn-desencriptar");
     boton2.onclick = desencriptar;
+
+    var boton3 = document.querySelector("btn-copiar");
+    boton3.onclick = updateClipboard;
 </script>
 
 </html>

@@ -28,7 +28,8 @@ header img {
     margin: 20px 50px -9px 50px;
 }
 
-.btn-1 {
+.btn-1,
+.btn-3 {
     width: 27%;
     padding: 10px 5px;
     margin: 10px 20px 10px 50px;
@@ -40,7 +41,8 @@ header img {
     transition: 1s all;
 }
 
-.btn-1:hover {
+.btn-1:hover,
+.btn-3:hover {
     background: darkslateblue;
     transform: scale(1.1);
 }
@@ -61,11 +63,23 @@ header img {
     transform: scale(1.1);
 }
 
-.buton-menu {
+.container {
     display: flex;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 0 5px;
-    margin: 10px 20px;
-    justify-content: flex-end;
+    justify-content: end;
+    margin: 15px 35px;
+}
+
+.container button {
+    font-size: 15px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 1s all;
+}
+
+.container button:hover {
+    background: darkgreen;
+    transform: scale(1.1);
 }
